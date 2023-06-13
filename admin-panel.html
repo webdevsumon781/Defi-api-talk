@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+
+
+    <!-- bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+</head>
+
+<body>
+
+    <main class="admin-panel">
+
+        <header>
+            <div class="container">
+                <div class="innerHeader">
+                    <div class="row">
+                        <div class="col-md-9 col-sm-5 headerLeft">
+                            <div class="logoArea">
+                                <h3 class="logo"><a href="#"><span class="gradient">Influencer</span> Stats</a></h3>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-7 headerRight">
+                            <div class="menuArea">
+                                <a href="#" class="menu-item gradient">Join Telegram </a>
+                                <a href="#" class="menu-item gradient">Follow Twitter</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header close********************************* -->
+
+        <!-- inner admin-panel start -->
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="innerPageTitle">
+                            <h1 class="pageTitle gradient">Admin Panel</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- inner admin panel-close -->
+
+        <section class="projectSearchArea">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- table one start -->
+                        <div class="searchArea">
+                            <div class="innerSearch">
+                                <select name="" id="select" placeholder="Search From">
+                                    <option value="">Search From</option>
+                                    <option value="item1">Item 1</option>
+                                    <option value="item1">Item 1</option>
+                                    <option value="item1">Item 1</option>
+                                    <option value="item1">Item 1</option>
+                                </select>
+                                <input class="form-control searchInput" type="search" name="" id="searchInput"
+                                    placeholder="Have a query? Search now">
+                                <input class="btn btn-primary" type="submit" value="Search">
+
+                            </div>
+                        </div>
+                        <div class="tableArea tableOne">
+                            <div class="innerTable">
+                                <table class="table table-responsive">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Project Name</th>
+                                            <th>Contract</th>
+                                            <th>1 Day</th>
+                                            <th>7 Day</th>
+                                            <th>30 Day</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <input type="submit" value="Submit" class="btn tableSubmit">
+                            </div>
+                        </div>
+                        <!-- table one close -->
+
+                        <!-- table two start-->
+                        <div class="tableArea tableTwo">
+                            <div class="innerTable">
+                                <h3 class="tableTitle">Influencer Rankings</h3>
+                                <table class="table table-responsive">
+                                    <thead>
+                                        <tr>
+                                            <th>Rank-1</th>
+                                            <th>Rank-2</th>
+                                            <th>Rank-3</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                       
+                                    </tbody>
+                                </table>
+                                <input type="submit" value="Submit" class="btn tableSubmit">
+                            </div>
+                        </div>
+                        <!-- table two close -->
+
+                        <!-- table three close-->
+                        <div class="tableArea tableThree">
+                            <div class="innerTable">
+                                <h3 class="tableTitle">Upcoming Rankings</h3>
+                                <table class="table table-responsive">
+                                    <thead>
+                                        <tr>
+                                            <th>Rank-1</th>
+                                            <th>Rank-2</th>
+                                            <th>Rank-3</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                       
+                                    </tbody>
+                                </table>
+                                <input type="submit" value="Submit" class="btn tableSubmit">
+                            </div>
+                        </div>
+                        <!-- table three start-->
+
+
+                        <!-- table four start-->
+                        <div class="searchArea">
+                            <div class="innerSearch">
+                                <select name="" id="select" class="telegramChannel" placeholder="Search From" disabled style="-webkit-appearance: none;">
+                                    <option value="">Search Telegram Channel</option>
+                                    <option value="item1">Item 1</option>
+                                    <option value="item1">Item 1</option>
+                                    <option value="item1">Item 1</option>
+                                    <option value="item1">Item 1</option>
+                                </select>
+                                <div class="searchBox">
+                                    <input class="form-control searchInput" type="search" name="" id="searchInput"
+                                    placeholder="Search now">
+                                    <i class="fa fa-search" disabled></i>
+                                </div>
+                                <input class="btn btn-primary" type="submit" value="Search">
+
+                            </div>
+                        </div>
+                        <div class="tableArea tableFour">
+                            <div class="innerTable">
+                                <table class="table table-responsive">
+                                    <thead>
+                                        <tr>
+                                            <th>Channel Name</th>
+                                            <th>Channel Telegram</th>
+                                            <th>Channel Twitter</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <input type="submit" value="Submit" class="btn tableSubmit">
+                            </div>
+                        </div>
+                        <!-- table four close -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

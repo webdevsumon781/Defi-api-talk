@@ -1,0 +1,365 @@
+@media only screen and (max-width: 767px) {
+
+    /* header start */
+    .innerHeader {
+        margin: 0px 10px !important;
+    }
+
+    .headerLeft {
+        width: 50%;
+    }
+
+    .headerRight {
+        width: 50%;
+    }
+
+    .logo {
+        font-family: 'Orbitron';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .menu-item {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    a.btn.cta-btn {
+        display: none;
+    }
+
+    /* header close */
+
+
+    /* homepage start */
+    .home-page {
+        width: auto !important;
+        height: 100vh !important;
+        margin: 0 auto;
+        background: url(/assets/media/images/bg.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: hidden;
+    }
+
+
+    .innerContent {
+        height: 645px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: #fff;
+    }
+
+    .innerContent h1 {
+        font-size: 26px;
+        line-height: 34px;
+    }
+
+    .innerContent p {
+        font-size: 10px;
+        line-height: 18px;
+        margin: 15px auto;
+    }
+
+    .innerContent .btn {
+        margin: 10px 0px 0px;
+    }
+
+    .bannerBtn,
+    .cta-btn {
+        font-size: 16px;
+        line-height: 22px;
+        padding: 10px 32px;
+    }
+
+    /* homepage close */
+
+    /* admin panel start **************************/
+    .admin-panel {
+        width: auto !important;
+        height: auto;
+        background: #000;
+        margin: 0 auto;
+        padding: 0px 0px 50px 0px;
+        overflow: hidden;
+    }
+
+    .innerSearch {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 60px 0px 0px;
+    }
+
+    .pageTitle {
+        margin: 20px auto;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 56px;
+        /* identical to box height */
+        background: linear-gradient(90deg, rgba(253, 103, 28, 0.9) 0%, #FFFFFF 30.57%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent;
+    }
+
+    #select {
+        width: 100%;
+        height: 49px;
+        padding: 0px 10px;
+        background: #FFFFFF;
+        border-radius: 10px;
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: #262626;
+    }
+
+    .searchInput {
+        width: 100%;
+        height: 49px;
+        margin: 0px 10px;
+        background: #FFFFFF;
+        border-radius: 15px;
+        padding: 0px 30px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: #262626;
+        margin: 10px auto;
+    }
+
+
+    .innerSearch .btn {
+        width: 112px;
+        height: 38px;
+        color: #fff;
+        background: #0D6EFD !important;
+        border-radius: 10px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .innerTable {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 30px auto;
+    }
+
+    .tableTitle {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 30px;
+        color: #FFFFFF;
+        margin: 0px 0px 8px 0px;
+    }
+
+    .table {
+        width: auto !important;
+        background: #fff0 !important;
+        border-radius: 10px !important;
+        overflow: hidden;
+        padding: 5px !important;
+        font-family: "Poppins";
+    }
+
+    .table thead th {
+        text-align: center;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 27px;
+        color: #262626;
+    }
+
+    .table tbody tr td {
+        text-align: center;
+        background: #C7DDFF;
+        border: 1px solid #fff;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 22px;
+        color: #262626;
+    }
+
+    .tableTwo .table,
+    .tableThree .table,
+    .tableFour .table {
+        width: auto !important;
+        background: #fff0 !important;
+        overflow: hidden;
+        padding: 5px !important;
+        font-family: "Poppins";
+        border-radius: 10px 10px 0px 0px !important;
+    }
+
+    .searchBox {
+        position: relative;
+        width: 100%;
+    }
+
+    i.fa.fa-search {
+        font-size: 20px;
+        position: absolute;
+        right: 20px;
+        top: 26px;
+    }
+
+    .tableSubmit {
+        width: 112px;
+        height: 38px;
+        color: #fff;
+        background: #0D6EFD !important;
+        border-radius: 10px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 1px 0px 0px;
+    }
+
+    /* admin panel close************************** */
+
+
+    /* statistics start ****************/
+    .statistics {
+        width: auto;
+        height: auto;
+    }
+    .statistics .innerBtnGroup {
+        margin: 12px 0px 9px;
+    }
+    .statistics .innerBtnGroup .btn {
+        padding: 5px 6px;
+        margin: 5px 0px;
+        text-align: center;
+    }
+    .statistics  .colTitle {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        margin: 16px 0px -11px 2px;
+        font-size: 18px;
+        line-height: 29px;
+        color: #FFFFFF;
+    }
+    .statisticsSearch .searchArea {
+        display: block;
+        width: 100%;
+        margin: 30px 0px -30px 0px !important;
+    }
+
+
+
+    .statisticsSearch .searchArea input[type="search"] {
+        width: 100%;
+        height: 37px;
+        background: #FFFFFF;
+        border-radius: 5px;
+        margin: 5px 0px 5px 0px;
+    }
+
+    .innerTable {
+        width: 350px;
+        overflow-x: scroll;
+    }
+    .backBtn,
+    .innerPagination .page-item {
+        width: 100px;
+        height: 46px;
+        font-size: 14px;
+        margin: 0px 1px !important;
+    }
+    .innerPagination .page-item a{
+        font-size: 14px !important;
+    }
+    /* statistics close ***********************************/
+
+
+    /* top influencers start************************************ */
+    .topInfluencers {
+        width: 100%;
+        height: auto;
+        background: #000;
+    }
+    .topInfluencers .pageTitle {
+        margin: 48px auto;
+    }
+    
+    .row.card-left,
+    .row.card-right {
+        display: block;
+    }
+
+    .card-left .card,
+    .card-right .card {
+        margin: 20px 10px;
+        width: 95%;
+        height: 200px;
+    }
+
+    .card-left .card-footer,
+    .card-right .card-footer  {
+        width: 100%;
+        height: 64px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .card-footer .col-7 span {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+        text-align: left;
+        color: #FFFFFF;
+        display: block;
+        margin: 10px 0px 0px;
+    }
+    .topInfluencers .tableTitle {
+        text-align: left;
+        margin: 40px 0px -20px 0px;
+    }
+    .colTitle {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        margin: 16px 0px -11px 12px;
+        font-size: 18px;
+        line-height: 29px;
+        color: #FFFFFF;
+    }
+}
